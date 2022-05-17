@@ -1,6 +1,7 @@
 using System;
 
 // abstract quer dizer que a classe é como um esboço, feito para ser utilizado por classes derivadas. a classe abstract nao pode sr chamada, apenas usada como classe base.
+//se a classe fosse 'SEALED' eu nao poderia gerar classes derivadas.
 abstract class Veiculo
 {
     protected int velMaxima;
